@@ -7,6 +7,7 @@ class ClothesShop:
 
     def display_info(self):
         print(f"Id:{self.product_id} Type:{self.product_type} Brand:{self.product_brand} Quantity:{self.quantity}")
+
 # here we store all the products
 clothes_list = []
 
@@ -19,7 +20,6 @@ clothes_list.append(product2)
 clothes_list.append(product3)
 
 # operations
-
 def search_by_id(clothes_list, id = int(input("Enter an id: "))):
     found = False
     for c in clothes_list:
