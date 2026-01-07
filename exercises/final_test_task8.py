@@ -14,7 +14,7 @@ else:
         list1.append(num)
 
     for i in range(0, X+1):
-        num = random.randint(51,80)
+        num = random.randint(51 ,80)
         list2.append(num)
 
     print(list1, list2)
